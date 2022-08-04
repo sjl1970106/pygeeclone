@@ -8,7 +8,7 @@ import os
 
 # from .utils import *
 
-def save_image(shapeID, base_dir, dates, export_dir = None, v = True, l = 8):
+def saveimage(shapeID, base_dir, dates, export_dir = None, v = True, l = 8):
     
     FULL_DIR = os.path.join(base_dir, shapeID) #this is the subfolder in "imagery"
     TEMP_DIR = os.path.join(base_dir, shapeID, "temp")
